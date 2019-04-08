@@ -11,7 +11,7 @@ using System.IO.Packaging;
 
 using System.Windows.Forms;
 
-namespace CustomUIEditor
+namespace RibbonEditor
 {
 	class OfficeDocument : IDisposable
 	{

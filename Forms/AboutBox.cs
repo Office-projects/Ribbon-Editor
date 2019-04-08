@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace CustomUIEditor
+namespace RibbonEditor
 {
 	partial class AboutBox : Form
 	{

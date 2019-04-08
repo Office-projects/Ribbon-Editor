@@ -1,4 +1,4 @@
-﻿namespace CustomUIEditor
+﻿namespace RibbonEditor
 {
 	partial class AboutBox
 	{

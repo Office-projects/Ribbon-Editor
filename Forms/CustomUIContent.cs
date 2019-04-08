@@ -12,7 +12,7 @@ using System.Xml.Schema;
 using System.Diagnostics;
 using UndoRedo.Control;
 
-namespace CustomUIEditor
+namespace RibbonEditor
 {
 	/// <summary>
 	/// Code related to custom UI Xml

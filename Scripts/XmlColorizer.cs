@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 using System.Xml;
 
-namespace CustomUIEditor
+namespace RibbonEditor
 {
 	/// <summary>
 	/// Very basic, read: inefficient, Xml colorizer based on RegEx.

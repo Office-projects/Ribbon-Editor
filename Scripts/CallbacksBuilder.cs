@@ -3,7 +3,7 @@ using System.Xml;
 using System.Text;
 using System.Diagnostics;
 
-namespace CustomUIEditor
+namespace RibbonEditor
 {
 	/// <summary>
 	/// Code to generate callbacks

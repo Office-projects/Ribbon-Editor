@@ -11,7 +11,7 @@ using System.Xml.Schema;
 
 using System.Diagnostics;
 
-namespace CustomUIEditor
+namespace RibbonEditor
 {
 	/// <summary>
 	/// Code to insert sample Xml
