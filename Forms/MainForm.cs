@@ -13,6 +13,7 @@ using System.Xml.Schema;
 
 using System.Diagnostics;
 using UndoRedo.Control;
+using RibbonEditor.Properties;
 
 namespace RibbonEditor
 {
@@ -307,7 +308,7 @@ namespace RibbonEditor
             // 
             // openToolStripMenuItem
             // 
-            this.openToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.open;
+            this.openToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.open;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
@@ -316,7 +317,7 @@ namespace RibbonEditor
             // 
             // saveToolStripMenuItem
             // 
-            this.saveToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.save;
+            this.saveToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.save;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
@@ -369,7 +370,7 @@ namespace RibbonEditor
             // 
             // office14PartToolStripMenuItem
             // 
-            this.office14PartToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.xml;
+            this.office14PartToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.xml;
             this.office14PartToolStripMenuItem.Name = "office14PartToolStripMenuItem";
             this.office14PartToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.office14PartToolStripMenuItem.Tag = RibbonEditor.XMLParts.RibbonX14;
@@ -378,7 +379,7 @@ namespace RibbonEditor
             // 
             // office12PartToolStripMenuItem
             // 
-            this.office12PartToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.xml;
+            this.office12PartToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.xml;
             this.office12PartToolStripMenuItem.Name = "office12PartToolStripMenuItem";
             this.office12PartToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.office12PartToolStripMenuItem.Tag = RibbonEditor.XMLParts.RibbonX12;
@@ -392,7 +393,7 @@ namespace RibbonEditor
             // 
             // insertImagesToolStripMenuItem
             // 
-            this.insertImagesToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.insertPicture;
+            this.insertImagesToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.insertPicture;
             this.insertImagesToolStripMenuItem.Name = "insertImagesToolStripMenuItem";
             this.insertImagesToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.insertImagesToolStripMenuItem.Text = "I&cons...";
@@ -509,7 +510,7 @@ namespace RibbonEditor
             // 
             // openToolStripButton
             // 
-            this.openToolStripButton.Image = global::RibbonEditor.ImagesResource.open;
+            this.openToolStripButton.Image = global::RibbonEditor.Properties.Images.open;
             this.openToolStripButton.Name = "openToolStripButton";
             this.openToolStripButton.Size = new System.Drawing.Size(56, 22);
             this.openToolStripButton.Text = "&Open";
@@ -517,7 +518,7 @@ namespace RibbonEditor
             // 
             // saveToolStripButton
             // 
-            this.saveToolStripButton.Image = global::RibbonEditor.ImagesResource.save;
+            this.saveToolStripButton.Image = global::RibbonEditor.Properties.Images.save;
             this.saveToolStripButton.Name = "saveToolStripButton";
             this.saveToolStripButton.Size = new System.Drawing.Size(51, 22);
             this.saveToolStripButton.Text = "&Save";
@@ -530,7 +531,7 @@ namespace RibbonEditor
             // 
             // insertIconsToolStripButton
             // 
-            this.insertIconsToolStripButton.Image = global::RibbonEditor.ImagesResource.insertPicture;
+            this.insertIconsToolStripButton.Image = global::RibbonEditor.Properties.Images.insertPicture;
             this.insertIconsToolStripButton.Name = "insertIconsToolStripButton";
             this.insertIconsToolStripButton.Size = new System.Drawing.Size(87, 22);
             this.insertIconsToolStripButton.Text = "Insert Icons";
@@ -538,7 +539,7 @@ namespace RibbonEditor
             // 
             // tsbValidateXml
             // 
-            this.tsbValidateXml.Image = global::RibbonEditor.ImagesResource.check;
+            this.tsbValidateXml.Image = global::RibbonEditor.Properties.Images.check;
             this.tsbValidateXml.Name = "tsbValidateXml";
             this.tsbValidateXml.Size = new System.Drawing.Size(68, 22);
             this.tsbValidateXml.Text = "Validate";
@@ -546,7 +547,7 @@ namespace RibbonEditor
             // 
             // tsbGenerateCallbacks
             // 
-            this.tsbGenerateCallbacks.Image = global::RibbonEditor.ImagesResource.callbacks;
+            this.tsbGenerateCallbacks.Image = global::RibbonEditor.Properties.Images.callbacks;
             this.tsbGenerateCallbacks.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbGenerateCallbacks.Name = "tsbGenerateCallbacks";
             this.tsbGenerateCallbacks.Size = new System.Drawing.Size(127, 22);
@@ -641,7 +642,7 @@ namespace RibbonEditor
             // 
             // o14ToolStripMenuItem
             // 
-            this.o14ToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.xml;
+            this.o14ToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.xml;
             this.o14ToolStripMenuItem.Name = "o14ToolStripMenuItem";
             this.o14ToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.o14ToolStripMenuItem.Tag = RibbonEditor.XMLParts.RibbonX14;
@@ -650,7 +651,7 @@ namespace RibbonEditor
             // 
             // o12ToolStripMenuItem
             // 
-            this.o12ToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.xml;
+            this.o12ToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.xml;
             this.o12ToolStripMenuItem.Name = "o12ToolStripMenuItem";
             this.o12ToolStripMenuItem.Size = new System.Drawing.Size(216, 22);
             this.o12ToolStripMenuItem.Tag = RibbonEditor.XMLParts.RibbonX12;
@@ -689,7 +690,7 @@ namespace RibbonEditor
             // 
             // removeToolStripMenuItem
             // 
-            this.removeToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.remove;
+            this.removeToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.remove;
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
             this.removeToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.removeToolStripMenuItem.Text = "Remove";
@@ -719,7 +720,7 @@ namespace RibbonEditor
             // 
             // insertIconsToolStripMenuItem
             // 
-            this.insertIconsToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.insertPicture;
+            this.insertIconsToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.insertPicture;
             this.insertIconsToolStripMenuItem.Name = "insertIconsToolStripMenuItem";
             this.insertIconsToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.insertIconsToolStripMenuItem.Text = "Insert Icons...";
@@ -732,7 +733,7 @@ namespace RibbonEditor
             // 
             // removePartToolStripMenuItem
             // 
-            this.removePartToolStripMenuItem.Image = global::RibbonEditor.ImagesResource.remove;
+            this.removePartToolStripMenuItem.Image = global::RibbonEditor.Properties.Images.remove;
             this.removePartToolStripMenuItem.Name = "removePartToolStripMenuItem";
             this.removePartToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.removePartToolStripMenuItem.Text = "Remove";
@@ -861,8 +862,8 @@ namespace RibbonEditor
 				if (xmlDoc.DocumentElement.NamespaceURI.ToString() != targetSchema.TargetNamespace)
 				{
 					StringBuilder errorText = new StringBuilder();
-					errorText.Append(StringsResource.idsUnknownNamespace.Replace("|1", xmlDoc.DocumentElement.NamespaceURI.ToString()));
-					errorText.Append("\n" + StringsResource.idsCustomUINamespace.Replace("|1", targetSchema.TargetNamespace));
+					errorText.Append(Strings.idsUnknownNamespace.Replace("|1", xmlDoc.DocumentElement.NamespaceURI.ToString()));
+					errorText.Append("\n" + Strings.idsCustomUINamespace.Replace("|1", targetSchema.TargetNamespace));
 
 					ShowError(errorText.ToString());
 					return false;
@@ -873,7 +874,7 @@ namespace RibbonEditor
 			}
 			catch (XmlException ex)
 			{
-				ShowError(StringsResource.idsInvalidXml + "\n" + ex.Message);
+				ShowError(Strings.idsInvalidXml + "\n" + ex.Message);
 				return false;
 			}
 
@@ -885,7 +886,7 @@ namespace RibbonEditor
 				{
 					MessageBox.Show(
 						this,
-						StringsResource.idsValidXml,
+						Strings.idsValidXml,
 						this.Text,
 						MessageBoxButtons.OK,
 						MessageBoxIcon.Information);
@@ -967,7 +968,7 @@ namespace RibbonEditor
 				System.Text.StringBuilder callbacks = CallbacksBuilder.GenerateCallback(customUI);
 				if (callbacks == null || callbacks.Length == 0)
 				{
-					MessageBox.Show(StringsResource.idsNoCallback, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+					MessageBox.Show(Strings.idsNoCallback, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
 					return;
 				}
 
@@ -1065,10 +1066,10 @@ namespace RibbonEditor
 
 		private void LoadTreeViewImages()
 		{
-			tvImageList.Images.Add(OfficeApplications.XML.ToString(), ImagesResource.xml);
-			tvImageList.Images.Add(OfficeApplications.Word.ToString(), ImagesResource.worddoc);
-			tvImageList.Images.Add(OfficeApplications.Excel.ToString(), ImagesResource.excelwkb);
-			tvImageList.Images.Add(OfficeApplications.PowerPoint.ToString(), ImagesResource.pptpre);
+			tvImageList.Images.Add(OfficeApplications.XML.ToString(), Images.xml);
+			tvImageList.Images.Add(OfficeApplications.Word.ToString(), Images.worddoc);
+			tvImageList.Images.Add(OfficeApplications.Excel.ToString(), Images.excelwkb);
+			tvImageList.Images.Add(OfficeApplications.PowerPoint.ToString(), Images.pptpre);
 		}
 
 		private void insertContextMenu_Opened(object sender, EventArgs e)

@@ -11,6 +11,7 @@ using System.Xml.Schema;
 
 using System.Diagnostics;
 using UndoRedo.Control;
+using RibbonEditor.Properties;
 
 namespace RibbonEditor
 {
@@ -38,8 +39,8 @@ namespace RibbonEditor
 			int col = end - customUI.GetFirstCharIndexFromLine(line);
 
 			this.statusBar.SuspendLayout();
-			this.lbLine.Text = StringsResource.idsLineStatus + (line + 1);
-			this.lbColumn.Text = StringsResource.idsColumnStatus + (col + 1);
+			this.lbLine.Text = Strings.idsLineStatus + (line + 1);
+			this.lbColumn.Text = Strings.idsColumnStatus + (col + 1);
 			this.statusBar.ResumeLayout();
 
             //UndoRedo
@@ -99,9 +100,9 @@ namespace RibbonEditor
 			Debug.Assert(insertIconsDialog != null);
 
 			#region Initializing Insert Icons Dialog
-			insertIconsDialog.Title = StringsResource.idsInsertIconsDialogTitle;
+			insertIconsDialog.Title = Strings.idsInsertIconsDialogTitle;
 			insertIconsDialog.Multiselect = true;
-			insertIconsDialog.Filter = StringsResource.idsFilterAllSupportedImages + "|" + StringsResource.idsFilterAllFiles;
+			insertIconsDialog.Filter = Strings.idsFilterAllSupportedImages + "|" + Strings.idsFilterAllFiles;
 			insertIconsDialog.FilterIndex = 0;
 			insertIconsDialog.RestoreDirectory = false;
 			#endregion
@@ -328,14 +329,14 @@ namespace RibbonEditor
 		};
 
 		private string[] EditMenuItemText = new String[] {
-			StringsResource.idsUndo,
-			StringsResource.idsRedo,
+			Strings.idsUndo,
+			Strings.idsRedo,
 			null,
-			StringsResource.idsCut,
-			StringsResource.idsCopy,
-			StringsResource.idsPaste,
+			Strings.idsCut,
+			Strings.idsCopy,
+			Strings.idsPaste,
 			null,
-			StringsResource.idsSellectAll
+			Strings.idsSellectAll
 		};
 
 		private System.Reflection.MethodInfo[] EditMenuItemTags = new System.Reflection.MethodInfo[] {
@@ -350,12 +351,12 @@ namespace RibbonEditor
 		};
 
 		private Image[] EditMenuItemImages = new Image[] {
-			ImagesResource.undo,
-			ImagesResource.redo,
+			Images.undo,
+			Images.redo,
 			null,
-			ImagesResource.cut,
-			ImagesResource.copy,
-			ImagesResource.paste,
+			Images.cut,
+			Images.copy,
+			Images.paste,
 			null,
 			null
 		};

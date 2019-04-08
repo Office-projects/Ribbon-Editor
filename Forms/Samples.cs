@@ -10,6 +10,7 @@ using System.Xml;
 using System.Xml.Schema;
 
 using System.Diagnostics;
+using RibbonEditor.Properties;
 
 namespace RibbonEditor
 {
@@ -26,7 +27,7 @@ namespace RibbonEditor
 			foreach (string file in this.sampleFiles)
 			{
 				ToolStripMenuItem item = new ToolStripMenuItem(Path.GetFileNameWithoutExtension(file));
-				item.Image = ImagesResource.xml;
+				item.Image = Images.xml;
 				item.Tag = file;
 				item.Click += new EventHandler(sampleMenuItem_Click);
 				sampleToolStripMenuItem.DropDownItems.Add(item);

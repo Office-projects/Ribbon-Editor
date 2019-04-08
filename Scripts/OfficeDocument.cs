@@ -10,6 +10,7 @@ using System.IO;
 using System.IO.Packaging;
 
 using System.Windows.Forms;
+using RibbonEditor.Properties;
 
 namespace RibbonEditor
 {
@@ -488,7 +489,7 @@ namespace RibbonEditor
 			if (fileName.Length == 0) return null;
 
 			if (id == null) throw new ArgumentNullException("id");
-			if (id.Length == 0) throw new ArgumentException(StringsResource.idsNonEmptyId);
+			if (id.Length == 0) throw new ArgumentException(Strings.idsNonEmptyId);
 
 			if (_part.RelationshipExists(id))
 			{
@@ -614,7 +615,7 @@ namespace RibbonEditor
 		{
 			if (source == null) throw new ArgumentNullException("source");
 			if (target == null) throw new ArgumentNullException("target");
-			if (target.Length == 0) throw new ArgumentException(StringsResource.idsNonEmptyId);
+			if (target.Length == 0) throw new ArgumentException(Strings.idsNonEmptyId);
 
 			if (source == target)
 			{
@@ -624,7 +625,7 @@ namespace RibbonEditor
 			if (!_part.RelationshipExists(source)) return;
 			if (_part.RelationshipExists(target))
 			{
-				throw new Exception(StringsResource.idsDuplicateId.Replace("|1", target));
+				throw new Exception(Strings.idsDuplicateId.Replace("|1", target));
 			}
 
 			PackageRelationship imageRel = _part.GetRelationship(source);

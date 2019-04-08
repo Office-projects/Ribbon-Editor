@@ -12,6 +12,7 @@ using System.Xml;
 using System.Xml.Schema;
 
 using System.Diagnostics;
+using RibbonEditor.Properties;
 
 namespace RibbonEditor
 {
@@ -29,7 +30,7 @@ namespace RibbonEditor
 
 			this.rtbCustomUI.ReadOnly = this.package.ReadOnly;
 
-			string readOnly = (this.rtbCustomUI.ReadOnly ? " (" + StringsResource.idsReadOnly + ")" : String.Empty);
+			string readOnly = (this.rtbCustomUI.ReadOnly ? " (" + Strings.idsReadOnly + ")" : String.Empty);
 			this.Text = Path.GetFileName(this.package.Name) + readOnly + " - " + this.Text;
 			this.lbDocumentName.Text = this.package.Name + readOnly;
 
@@ -95,8 +96,8 @@ namespace RibbonEditor
 		{
 			if (!hasDocument)
 			{
-				this.lbDocumentName.Text = StringsResource.idsOpenDocumentPrompt;
-				this.Text = StringsResource.idsApplicationTitle;
+				this.lbDocumentName.Text = Strings.idsOpenDocumentPrompt;
+				this.Text = Strings.idsApplicationTitle;
 			}
 
 			this.saveToolStripButton.Enabled =
@@ -211,12 +212,12 @@ namespace RibbonEditor
 			OpenFileDialog openDocumentDialog = new OpenFileDialog();
 
 			#region Initializing Open Document Dialog
-			openDocumentDialog.Title = StringsResource.idsOpenDocumentDialogTitle;
-			openDocumentDialog.Filter = StringsResource.idsFilterAllOfficeDocuments + "|" +
-				StringsResource.idsFilterWordDocuments + "|" +
-				StringsResource.idsFilterExcelDocuments + "|" +
-				StringsResource.idsFilterPPTDocuments + "|" +
-				StringsResource.idsFilterAllFiles;
+			openDocumentDialog.Title = Strings.idsOpenDocumentDialogTitle;
+			openDocumentDialog.Filter = Strings.idsFilterAllOfficeDocuments + "|" +
+				Strings.idsFilterWordDocuments + "|" +
+				Strings.idsFilterExcelDocuments + "|" +
+				Strings.idsFilterPPTDocuments + "|" +
+				Strings.idsFilterAllFiles;
 			openDocumentDialog.FilterIndex = 0;
 			openDocumentDialog.RestoreDirectory = true;
 			#endregion
@@ -236,7 +237,7 @@ namespace RibbonEditor
 
 			DialogResult result = MessageBox.Show(
 				this,
-				StringsResource.idsAskForSaveChanges,
+				Strings.idsAskForSaveChanges,
 				this.Text,
 				MessageBoxButtons.YesNoCancel,
 				MessageBoxIcon.Warning);
