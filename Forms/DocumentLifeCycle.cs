@@ -31,7 +31,7 @@ namespace RibbonEditor
 			this.rtbCustomUI.ReadOnly = this.package.ReadOnly;
 
 			string readOnly = (this.rtbCustomUI.ReadOnly ? " (" + Strings.idsReadOnly + ")" : String.Empty);
-			this.Text = Path.GetFileName(this.package.Name) + readOnly + " - " + this.Text;
+			//this.Text = Path.GetFileName(this.package.Name) + readOnly + " - " + this.Text;
 			this.lbDocumentName.Text = this.package.Name + readOnly;
 
 			if (this.package.Parts != null && this.package.Parts.Count > 0)
@@ -97,7 +97,7 @@ namespace RibbonEditor
 			if (!hasDocument)
 			{
 				this.lbDocumentName.Text = Strings.idsOpenDocumentPrompt;
-				this.Text = Strings.idsApplicationTitle;
+				//this.Text = Strings.idsApplicationTitle;
 			}
 
 			this.saveToolStripButton.Enabled =
