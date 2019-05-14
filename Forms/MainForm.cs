@@ -495,6 +495,7 @@ namespace RibbonEditor
             // commandBar
             // 
             this.commandBar.Dock = System.Windows.Forms.DockStyle.None;
+            this.commandBar.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.commandBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openToolStripButton,
             this.saveToolStripButton,
@@ -504,7 +505,7 @@ namespace RibbonEditor
             this.tsbGenerateCallbacks});
             this.commandBar.Location = new System.Drawing.Point(3, 24);
             this.commandBar.Name = "commandBar";
-            this.commandBar.Size = new System.Drawing.Size(407, 25);
+            this.commandBar.Size = new System.Drawing.Size(398, 25);
             this.commandBar.TabIndex = 1;
             this.commandBar.Text = "Command Bar";
             // 
